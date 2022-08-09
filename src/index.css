@@ -1,0 +1,23 @@
+*{
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+box-sizing: border-box; usado para que nenhum elemento passe do elemento Pai.
+*/
+
+body{
+    background-image: radial-gradient( rgba(255, 255, 0, 0.481), #eb6c99,  #d9831a);
+    color: #65EB00;
+}
+
+a{
+    text-decoration: none;
+    color:  #ff9c23;
+    transition: .5s;
+}
+a:hover{
+    color:#ff8d01;
+}
